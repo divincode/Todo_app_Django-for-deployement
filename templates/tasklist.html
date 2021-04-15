@@ -36,9 +36,12 @@
 {% endblock body %}
 
 {% block js %}
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 <script>
     $(document).ready(function () {
+        console.log("hi");
         $('#table_id').DataTable();
     });
 </script>
