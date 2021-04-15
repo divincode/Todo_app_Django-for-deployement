@@ -4,7 +4,7 @@
 {% block tasktab %}active{% endblock tasktab %}
 
 {% block head %}
-
+<!-- Html here of datatables-->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
 {% endblock head %}
 
@@ -34,8 +34,10 @@
     </table>
 </div>
 {% endblock body %}
-
+<!-- css here of datatables -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 {% block js %}
+
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 <script>
     $(document).ready(function () {
